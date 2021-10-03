@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Async Await</title>
+</head>
+<body>
+	<center>
+		<h2>Async Await</h2>	
+	</center>
+</body>
+</html>
+
+<script type="text/javascript">
+		
+
+		// async function getMyData() {
+		// 	console.log('Inside Call getMyData')
+		// 	const myurl = 'https://jsonplaceholder.typicode.com/todos/';
+		// 	return await fetch(myurl)
+		// 	// return  await 'Shubham'
+		// }
+
+		// console.log('Before Call getMyData')
+
+		// const myName = getMyData()
+
+		// myName.then(response => response.json()).then(json =>
+		// {
+		// console.log('After Call getMyData')
+		// 	console.log(json)
+		// })
+
+		async function getMyName() {
+			console.log('Inside Call getMyData')
+			// body...
+			 return await 'Aditya'
+
+			
+		}
+		 console.log('Before Call getMyData')
+		const myname = getMyName();
+
+		console.log(myname)
+		console.log('After Call getMyData')
+
+</script>
